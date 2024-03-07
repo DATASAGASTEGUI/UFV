@@ -1,0 +1,64 @@
+https://github.com/DATASAGASTEGUI/UFV.git
+
+OPERADORES COMPORACION (IF, WHILE, DO..WHILE, FOR)
+----------------------
+== 	igual
+!= 	diferente
+<	menor
+<=      menor o igual
+>       mayor
+>=      mayor igual
+
+OPERADOR ASIGNACION (DAR VALORES A LAS VARIABLES)
+------------------
+int x = 5;
+
+OPERADORES ARITMETICOS
+----------------------
++     suma
+-     resta
+*     multiplicacion
+/     division 
+%     Resto
+
+OPERADORES LOGICOS
+------------------
+&&		AND
+||		OR
+!		NEGACION
+
+ACUMULADORES
+------------
+s = s + numero
+
+CONTADORES
+----------
+c = c + 1   (de uno en uno)   c++
+c = c + 2   (de dos en dos)   c+=2
+
+ESPECIFICADORES DE FORMATO
+--------------------------
+int           %d
+char          %c
+float         %.2f
+cadenas       %s
+double        %lf    Mundo muy científico
+
+DEFINICION DE CONSTANTES
+------------------------
+#define VELOCIDADLUZ 3e5
+#define PI 3.1416
+
+ESTRUCTURA CONDICION BINARIA
+----------------------------
+if(5 > 3) {
+  printf("Vedadero");
+}else {
+  printf("Falso");
+}
+
+ESTRUCTURA CONDICION MULTIPLE (SWITCH)(ELSE IF)
+BUCLES: WHILE, DO...WHILE, FOR
+ARRAYS UNA DIMENSION.
+
+

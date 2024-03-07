@@ -1,0 +1,23 @@
+SUCURSAL(ID_SUCURSAL,DIRECCION,TELEFONO)
+HOTEL(ID_HOTEL,NOMBRE,DIRECCION,CIUDAD,TELEFONO,PLAZAS)
+VUELO(NUMERO_VUELO,FECHA_ORIGEN,HORA_ORIGEN,FECHA_DESTINO,HORA_DESTINO,PLAZAS_TOTALES,PLAZAS_TURISTAS)
+TURISTA(ID_TURISTA,NOMBRE,APELLIDOS,DIRECCION,TELEFONO)
+
+
+SUCURSAL           TURISTA
+1                  *
+*                  1 
+
+TURISTA            VUELO
+1                  *
+*                  1
+
+2000-01-01:
+09:30:23
+
+•	De igual manera, el turista se puede hospedar en cualquiera de los hoteles que ofrece la cadena, y elegir el régimen de hospedaje (media pensión o pensión completa). Siendo significativa la fecha de llegada y de partida.                  
+
+
+TURISTA    HOTEL
+1          *
+*          1
